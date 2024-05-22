@@ -1,0 +1,750 @@
+@media (max-width: 767px) {
+    .header__wrapper {
+        width: 400px;
+        height: 60px;
+        margin: 0 auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__block-autor {
+        padding: 10px 20px 10px 20px;
+    }
+    .header__block-autor-name {
+        font-family: Times New Roman;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: left;
+        
+    }
+    
+    .header__block-autor-profession {
+        font-family: Times New Roman;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.1px;
+        text-align: left;
+
+    
+    }
+    .header__menu {
+        display: none;
+    }
+    .menu__list {
+        display: block;
+        text-align: center;
+        padding-top: 60px;
+
+    }
+    .menu__link {
+        font-family: IBM Plex Serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+                text-align: center;
+
+                padding-bottom: 30px;   
+        cursor: pointer;
+    }
+    .menu__link a{
+     text-decoration: none;
+     color: #fff;
+    }
+    .menu__link:hover {
+        text-decoration: underline;
+    }
+    
+    .section1 {
+        background: url("./img/cam020000.jpg") no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 215px;
+        
+    }
+    .section1__wrapper {
+        color: #fff;
+        width: 400px;
+        margin: 0 auto;
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .section1__empty {
+    }
+    .response_sect1 {
+        margin: 0 auto;
+        padding: 0px 0px;
+        display: block;
+        width: 100%;
+        padding: 26px 0;
+        text-align: center;
+        color: #fff;
+        background: #000000CC;
+    }
+    .section1__info {
+        text-align: center;
+        gap: 20px;
+        padding: 40px;
+        background: hsla(0, 0%, 0%, 0.8);
+        display: none;
+    }
+    .section1__infor {
+        display: block;
+    }
+    .info__title {
+        font-family: IBM Plex Serif;
+        font-size: 29.52px;
+        font-weight: 400;
+        line-height: 35.42px;
+        text-align: center;        
+
+    
+    }
+    .info__subtitle {
+        font-family: IBM Plex Serif;
+        font-size: 17.71px;
+        font-weight: 300;
+        line-height: 23.02px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .info__btn {
+        padding: 11px 35px 11px 35px;
+        margin: 24px auto 15px auto;
+    }
+    
+    .info__btn a {
+        font-family: IBM Plex Serif;
+        font-size: 14.76px;
+        font-weight: 500;
+        line-height: 19.19px;
+        letter-spacing: 0.08em;
+        text-align: center;        
+        text-decoration: none;
+    }
+    .header__burger {
+        width: 26px;
+        height: 17px;
+        display: block;
+        position: relative;
+    }
+    .header__burger span {
+        transition: all ease-in 0.5s;
+
+        content: '';
+        position: absolute;
+        top: 8px;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+    }
+    .header__burger::after {
+        top: 0;
+        content: '';
+        width: 26px;
+        height: 2px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        transition: all ease-in 0.5s;
+
+    }
+    .header__burger::before {
+        top: 100%;
+        content: '';
+        width: 26px;
+        height: 2px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        transition: all ease-in 0.3s;
+
+    }
+    .burgactive::after {
+        top: 8px;
+        content: '';
+        width: 26px;
+        height: 2px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        transform: rotate(-45deg);
+        transition: all ease-in 0.3s;
+
+    }
+    .burgactive::before {
+        top: 8px;
+        content: '';
+        width: 26px;
+        height: 2px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        transform: rotate(45deg);
+        transition: all ease-in 0.3s;
+    }
+    .burgactive span {
+        display: none;
+    }
+    .menuactive {
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        background-color: #2E1E1E;
+        position: absolute;
+        display: block;
+        overflow: hidden;
+    }
+    .noscr {
+        overflow: hidden;
+    }
+    .section2 {
+        background-color: #000;
+        
+    }
+    .section2__wrapper {
+        margin: 0 auto;
+        display: block;
+        width: 400px;
+        padding: 26px 0;
+        text-align: center;
+    }
+    .about__img img {
+        object-fit: cover;
+        width: 300px;
+        height: 200px;
+    }
+    .about__info {
+        width: 300px;
+        margin: 0px auto;
+        padding-top: 20px;
+        color: #fff;
+        font-family: IBM Plex Serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 31.2px;
+        text-align: left;
+    
+    }
+    .about-titler {
+        margin-bottom: 15px;
+        font-family: IBM Plex Serif;
+        font-size: 29.52px;
+        font-weight: 400;
+        line-height: 35.42px;
+        text-align: center;
+        
+        display: block;
+        color: #fff;
+    }
+    .about-title {
+        margin-bottom: 25px;
+        font-family: IBM Plex Serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        display: none;
+    
+    }
+    .about__info p {
+        font-family: IBM Plex Serif;
+        font-size: 17.71px;
+        font-weight: 300;
+        line-height: 23.02px;
+        text-align: left;
+
+    }
+    .about-greeting {
+    }
+    .about-introduction {
+    }
+    .author-name {
+    }
+    .about-description {
+    }
+    .tool {
+
+    
+    }
+    .about-mission {
+    }
+    
+    .section3 {
+        background: linear-gradient(180deg, #2E1E1E 0%,#2E1E1E 70%, #000000 100%);
+        position: relative;
+        text-align: center;
+    }
+    .shadow {
+        position: absolute;
+        width: 100%;
+        content: '';
+        z-index: 9;
+        height: 100%;
+        background: linear-gradient(180deg, #2e1e1e00 0%,#2e1e1e00 70%, #000000 100%);
+
+    }
+    .section3-btn {
+        position: absolute;
+        bottom: 100px;
+        left: 25%;
+        z-index: 10;
+        padding: 11px 25px 11px 25px;
+        gap: 10px;
+        font-family: IBM Plex Serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18.2px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        cursor: pointer;
+
+    }
+    .section3__wrapper {
+        padding: 0px 0;
+        width: 100%;
+    }
+    .myproject {
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    .myproject-title {
+        font-family: IBM Plex Serif;
+        font-size: 29.52px;
+        font-weight: 400;
+        line-height: 35.42px;
+        text-align: center;
+
+
+    }
+    .myproject__subtitle {
+        width: 350px; 
+        font-family: IBM Plex Serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 200;
+        line-height: 24px;
+        text-align: center;
+
+    }
+    .gallery {
+        
+        margin: 0px auto;
+        width: 400px;
+        height: 1240px;
+        gap: 10px;
+        display: grid;
+        grid-template-rows: 4fr 1fr ;
+    }
+
+    .gallery__row1 {
+        display: grid;
+        grid-template-columns: 35% 1fr;
+        gap: 10px;
+        height: 1000px;
+    }
+    .gallery__row1-col1 {
+        display: grid;
+        gap: 10px;
+    }
+    .gallery__row1-col1-item {
+        position: relative;
+        padding: 0 0 85% 0;
+    }
+    .gallery__row1-col1-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__row1-col2 {
+        display: grid;
+        gap: 10px;
+    }
+    .gallery__row1-col2-item {
+        position: relative;
+        padding: 0 0 85% 0;
+    }
+    .gallery__row1-col2-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__row1-col3 {
+        display: none;
+        gap: 10px;
+    }
+    .gallery__row1-col3-item {
+        position: relative;
+        padding: 0 0 85% 0;
+    }
+    .gallery__row1-col3-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__row2 {
+        position: relative;
+        width: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .gallery__row2-col1 {
+
+    }
+    .gallery__row2-col1-item {
+        position: relative;
+        padding: 0 0 85% 0;
+    }
+    .gallery__row2-col1-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__row2-col2 {
+    }
+    .gallery__row2-col2-item {
+        position: relative;
+        padding: 0 0 85% 0;
+    }
+    .gallery__row2-col2-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__btn {
+        position: absolute;
+        top:3700px;
+    }
+    .section4 {
+        background: rgba(0, 0, 0, 0.9);
+        color: #fff;
+        border-top: 4px solid #333333;
+    }
+    .section4__wrapper {
+        width: 400px;
+        margin: 0 auto 0 auto;
+        padding-bottom: 30px;
+        text-align: center;
+    
+    }
+    .title {
+        font-family: IBM Plex Serif;
+        font-size: 29.52px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    
+    }
+    .skills {
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+        gap: 32px;
+        padding-bottom: 30px;
+    }
+    .skills__item {
+            text-align: center;
+        padding: 20px 10px;
+        background: rgba(51, 12, 12, 1);
+    
+    }
+    .skills__item-title {
+        font-family: IBM Plex Serif;
+        font-size: 17.71px;
+        font-weight: 700;
+        line-height: 23.02px;
+        text-align: center;
+        
+    }
+    .skills__item-stars {
+        width: 150px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .skills__item-stars img {
+        width: 20px;
+    }
+    .wrapper__video {
+        padding: 20px;
+        width: 350px;
+        border-top: 4px solid #000000;
+        border-bottom: 4px solid #000000;
+    }
+    iframe {
+        width: 350px;
+    }
+    .plan {
+        /* display: none; */
+    }
+    .plan__wrapper {
+        width: 400px;
+        padding-top: 10px;
+        display: grid;
+        gap: 20px;
+    }
+    .plan__block {
+        background-color: #191919;   
+    }
+    .packet__name {
+        height: 50px;
+        border: 1px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #330C0C;
+        font-family: IBM Plex Serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 15px;
+    
+    }
+    .packet__price {
+        border: 1px solid #000;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin-bottom: 10px;
+        background: #330C0C;
+        font-family: IBM Plex Serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    
+    
+    }
+    .packet__description {
+        height: 130px;
+        display: grid;
+        background: #330C0C;
+        margin-bottom: 10px;
+    
+    }
+    .packet__description-list {
+        background: #330C0C;
+    
+    }
+    .packet__description-item {
+        border: 1px solid #000;
+        font-family: IBM Plex Serif;
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 25px;
+        text-align: center;
+    
+        background: #330C0C;
+    }
+    .plan__conect {
+        height: 45px;
+        background: #330C0C;
+        border: 1px solid #000;
+        font-family: IBM Plex Serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+    
+    }
+    .plan__conect a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .section5 {
+        background: rgba(51, 12, 12, 1);
+        padding-bottom: 20px;
+    }
+    .form-title {
+        padding: 20px 0 20px;
+        font-family: IBM Plex Serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+        color: #fff;
+    }
+    form {
+        font-size: 20px;
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #424242;
+        border-radius: 5px;
+        background-color: #1b1717;
+        color: #fff;
+    }
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        width: auto;
+        font-size: 20px;
+        background-color: #303030;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: rgba(46, 30, 30, 1);
+    }
+    .section6 {
+        background-color: #000;
+    }
+    .section6__wrapper {
+        width: 400px;
+        margin: 0 auto 0 auto;
+        padding-bottom: 70px;
+        text-align: center;
+        color: #fff;
+    
+    }
+    .feedback__title {
+            font-family: IBM Plex Serif;
+            font-size: 29.52px;
+            font-weight: 400;
+            line-height: 48px;
+            text-align: center;
+
+            padding: 30px 0px 36px 0px;
+    }
+    .feedback__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 370px;
+        margin: 0px auto 0px auto;
+        position: relative;
+        height: 460px;
+    }
+    .feedback__autor {
+        position: absolute;
+        top: 0;
+        width: 120px;
+        left: 34%;
+    }
+    .feedback__content {
+        background: rgba(51, 12, 12, 1);
+        height: 340px;
+        padding-top: 100px;
+        margin-top: 65px;
+    
+    }
+    .feedback__content-title {
+        font-family: IBM Plex Serif;
+        font-size: 29.52px;
+        font-style: italic;
+        font-weight: 200;
+        line-height: 48px;
+        text-align: center;        
+    
+    }
+    .feedback__content-subtitle {
+        padding-top: 20px;
+        font-family: IBM Plex Serif;
+        font-size: 17.71px;
+        font-weight: 300;
+        line-height: 23.02px;
+        text-align: center;        
+        width: 282px;
+        margin: 0 auto 0 auto;
+    }
+    .arrow-left {
+        position: absolute;
+        top: 100px;
+        z-index: 3;
+        left: 0;
+        cursor: pointer;
+    }
+    .arrow-left:hover {
+        transform: scale(1.2);
+    }
+    .arrow-right {
+        position: absolute;
+        top: 100px;
+        z-index: 3;
+        right: 0;
+        cursor: pointer;
+    }
+    .arrow-right:hover {
+        transform: scale(1.2);
+    }
+    footer {
+        background: rgba(51, 12, 12, 1);
+    
+    }
+    .footer__wrapper {
+        color: #fff;
+        width: 400px;
+        margin: 0 auto 0 auto;
+        padding-bottom: 50px;
+    }
+    .title__fot {
+        padding-top: 50px;
+        font-family: IBM Plex Serif;
+        font-size: 29.52px;
+        font-style: italic;
+        font-weight: 200;
+        line-height: 38.38px;
+        text-align: center;
+
+    padding-bottom: 20px;
+    
+    }
+    .block__contact {
+        display: block;
+    }
+    .block__content-item {
+        background: #0000004D;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .description {
+        font-family: IBM Plex Serif;
+        font-size: 17.71px;
+        font-weight: 300;
+        line-height: 23.02px;
+        text-align: left;
+
+    
+    }
+    .value {
+        font-family: IBM Plex Serif;
+        font-size: 17.71px;
+        font-weight: 300;
+        line-height: 23.02px;
+        text-align: left;
+    }
+}
+
